@@ -273,7 +273,7 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
 .hide{
        display: none;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 576px) {
 .footer, .skills, .resume-containers, .skills-container, .banner, .header{
        flex-direction: column;
        /* background-color: chartreuse; */
@@ -304,6 +304,15 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
 
 
 }
+.footer{
+       align-items: center;
+       justify-content: center;
+       /* margin: 0px 50px 0px 50px; */
+       width: 576px;
+}
+.skills{
+       width: 576px;
+}
 .d-btn-child{
        border-radius: 10px;
        width: 50%;
@@ -325,7 +334,8 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
        border-radius: 10px;
        padding: 20px 30px;
        text-align: center;
-      margin-top: 0px;}
+      margin-top: 0px;
+width: 576px;}
 
 
       nav{
@@ -392,6 +402,7 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
                      background-image: url(../images/developer.png), url(../images/header_bg.png);
                      background-repeat:no-repeat ;
                      background-position: top left, bottom right;
+                     width: 576px;
               }
               
                             
