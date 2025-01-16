@@ -273,7 +273,7 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
 .hide{
        display: none;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
 .footer, .skills, .resume-containers, .skills-container, .banner, .header{
        flex-direction: column;
        /* background-color: chartreuse; */
