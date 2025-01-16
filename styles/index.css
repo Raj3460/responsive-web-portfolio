@@ -65,6 +65,8 @@ font-size: 15px;
 }
 
 /* DIV STYLES */
+
+
 .banner-context{
        width: 585px;
        height: 356px;
@@ -72,7 +74,9 @@ font-size: 15px;
        /* align-items: center; */
 
 }
-
+.banner-h1{
+       font-weight: 400;
+}
 
 div h4{
        color: #474747;
@@ -270,9 +274,9 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
        display: none;
 }
 @media screen and (max-width: 576px) {
-.footer, .skills, .resume-containers, .skills-container{
+.footer, .skills, .resume-containers, .skills-container, .banner, .header{
        flex-direction: column;
-       background-color: chartreuse;
+       /* background-color: chartreuse; */
        padding: 20px;
 
    }
@@ -316,7 +320,81 @@ footer input[type="text"],  footer input[type="email"],  footer textarea{
        /* margin-right: 200px; */
        margin-left: 180px;
        /* background-color:  */
+}
+.about{
+       border-radius: 10px;
+       padding: 20px 30px;
+       text-align: center;
+      margin-top: 0px;}
 
+
+      nav{
+       display: flex;
+       justify-content: space-around;
+       margin: 0px 0px 0px 80px;
+       align-items: center;}
+
+.nav-title{
+              font-weight: 800;
+              font-size: 35px;
+       }
+       .dark2{
+              color: #474747;
+              margin-right: 20px;
+       }
+       .btn-primary{
+              /* width: 110%; */
+       height: 44px;
+       background-color:#f27b04 ;
+       font-weight: 700;
+       color:#f1f7f0;
+       padding: 8PX 5PX;
+       border-radius: 5px;
+       
+       font-size: 15px;}
+       
+       
+       .banner{
+              width: 395px;
+              height: 885px;
+              margin-left: 100px;
+              margin-top: 0px;
+       }
+              
+              
+              .banner-pf-pic{
+                     width: 384px;
+                     height: 436px;
+                     
+                     
+              }
+              .banner-description{
+                     width: 355px;
+                     height: 60px;
+                     font-size: 18px;
+              }
+              .banner-context{
+                     width: 485px;
+                     height: 356px;
+                     margin-left: 1;
+                     
+                     /* align-items: center; */
+              
+              }
+              .banner-h1{
+                     font-weight: bolder;
+                     font-size: 55px;
+                     margin-bottom: 2px;
+                     margin-top: 0px;
+
+              }
+              .header{
+                     background-image: url(../images/developer.png), url(../images/header_bg.png);
+                     background-repeat:no-repeat ;
+                     background-position: top left, bottom right;
+              }
+              
+                            
 
 
 
